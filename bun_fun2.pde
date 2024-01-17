@@ -1,7 +1,7 @@
 Bun bun;
 Amogus amogus;
 Banana banana;
-watamelon watamelon;
+Watermelon watermelon;
 
 float GRAVITY = 0.3;
 float WINDSPEED = 0;
@@ -11,7 +11,7 @@ void setup(){
   bun = new Bun();
   amogus = new Amogus();
   banana = new Banana();
-  watamelon = new watamelon();
+  watermelon = new Watermelon();
 }
 
 void draw(){
@@ -19,5 +19,5 @@ void draw(){
   bun.update();
   amogus.update();
   banana.update();
-  watamelon.update();
+  watermelon.update();
 }

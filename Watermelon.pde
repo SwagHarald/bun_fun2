@@ -1,10 +1,10 @@
-class watamelon {
+class Watermelon {
 
   float xPos, yPos, xSpeed, ySpeed, yAcceleration, xAcceleration, angle, angularVelocity;
 
   PImage img;
 
-  watamelon() {
+  Watermelon() {
     xPos = random(50, width - 50);
     yPos = random(50, height - 50);
     xSpeed = 2;
